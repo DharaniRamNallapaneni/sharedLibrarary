@@ -1,4 +1,4 @@
-package com.i27.builds
+package com.i27.builds;
 class Calc {
     def jenkins
     Calc(jenkins) {
