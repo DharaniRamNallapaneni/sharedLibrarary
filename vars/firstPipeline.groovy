@@ -6,7 +6,9 @@ def call(Map pipelineParams){
     //Constructor
     Calc cal = new Calc(this)
      pipeline {
-      agent any
+      agent {
+        label 'java-worker'
+      }
       environment {
         // here this pipeline is expecting a value from service who ever is calling this pipeline
         APP_NAME = "${pipelineParams.appName}"
