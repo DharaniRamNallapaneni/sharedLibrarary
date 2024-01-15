@@ -1,4 +1,4 @@
-import com.i27.builds.Calc
+import com.i27.builds.Calc;
 
 def call(Map pipelineParams){
     // this value is the one we given in jenkins
